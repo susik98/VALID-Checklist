@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="https://user-images.githubusercontent.com/96145399/233773657-07bf3032-c60f-4f27-a7c4-261a64da9cb1.png" alt="VALID Checklist Logo" width="150"/>
+  <img src="/static/images/logo_final.png" alt="VALID Checklist Logo" width="150"/>
 </p>
 
 ### Welcome to the VALID Checklist!
