@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="/static/images/logo_final.png" alt="VALID Checklist Logo" width="150"/>
+  <img src="/static/images/Logo_final.png" alt="VALID Checklist Logo" width="150"/>
 </p>
 
 ### Welcome to the VALID Checklist!
