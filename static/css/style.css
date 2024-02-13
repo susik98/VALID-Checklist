@@ -25,12 +25,15 @@ body {
 h2 {
 	font-size: 44px;
 	font-weight: 700;
+	color: #0864A4;
 }
 
 h3 {
-	font-size: 24px;
+	font-size: 16px;
 	font-weight: 500;
-	margin-bottom: 25px;
+	letter-spacing: .05em;
+	color: #0864A4;
+	margin-bottom: 10px;
 }
 
 h5 {
@@ -41,7 +44,14 @@ p {
 	font-size: 14px;
 	font-weight: 400;
 	letter-spacing: .05em;
-	color: #0864A4;
+	color: #3a3f52;
+}
+
+a {
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: .05em;
+	color: #5996DB;
 }
 
 ul {
@@ -68,7 +78,7 @@ section {
 .title-block p {
 	font-size: 20px;
 	font-weight: 300;
-	color: #5996DB;
+	color: #3a3f52;
 	margin-bottom: 0px;
 }
 
@@ -88,6 +98,13 @@ img {
 	max-width: 100%;
 	height: auto;
   }
+
+span {
+	font-weight: 400;
+	color: #DDA01D;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+}
 
 /* ==============================================
    2. Navbar 
@@ -123,6 +140,7 @@ img {
 	font-weight: 600;
 	letter-spacing: .10em;
 	margin-top: 5px;
+	margin-right: 20px; /* Adjust the right margin as needed */
 }
 
 .navbar a {
@@ -223,12 +241,12 @@ img {
 }
 
 #hero h1 {
-	font-size: 50px;
+	font-size: 45px;
 	font-weight: 300;
 }
 
 #hero p {
-	font-size: 24px;
+	font-size: 20px;
     font-weight: 300;
     color: #5996DB;
     margin-bottom: 0px;
@@ -265,6 +283,14 @@ img {
 	padding: 60px 20px;
 }
 
+/* Styling for the link in the About section */
+#about-experts-link {
+	color: #5996DB; /* Change the color as needed */
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: .05em;
+  }
+
 /* ==============================================
    6. Contact
 ===============================================*/
@@ -295,6 +321,15 @@ img {
 	font-size: 16px;
 	font-weight: 300;
 	color: #3c3f45;
+	margin-top: 25px;
+	line-height: 1.8;
+	padding: 0px;
+}
+
+.testimonial-box a {
+	font-size: 16px;
+	font-weight: 300;
+	color: #5996DB;
 	margin-top: 25px;
 	line-height: 1.8;
 	padding: 0px;
@@ -412,61 +447,37 @@ img {
 ===============================================*/
 
 footer {
-    background-color: #292c31;
-    padding: 60px 0;
+    background-color: #f6f8f9;
+    padding: 30px 0;
     color: #62656a;
 }
-
-footer h5 {
-	color: #aeb3bd;
+  
+  footer h5 {
+	color: #0864A4;
 	text-transform: uppercase;
 	letter-spacing: .1em;
-	margin-bottom: 20px;
-}
-
-footer p {
-	font-size: 12px;
-	font-weight: 300;
-	color: #62656a;
-	text-align: justify;
-	padding: 0px;
-}
-
-footer li {
+	margin-bottom: 15px;
+  }
+  
+  footer p,
+  footer ul {
 	font-size: 14px;
 	font-weight: 300;
-	letter-spacing: .05em;
-	line-height: 1.5;
-	margin-bottom: 10px;
-}
-
-footer a {
 	color: #62656a;
-}
-
-footer a:hover {
+  }
+  
+  footer a {
 	color: #5996DB;
+  }
+  
+  footer a:hover {
+	color: #0864A4;
 	text-decoration: none;
-}
-
-footer i {
-	font-size: 25px;
-	color: #62656a;
-	margin-right: 10px;
-}
-
-footer i:hover {
+  }
+  
+  .external-links {
 	color: #5996DB;
-}
-
-footer small {
-	color: #62656a;
-	float: right;
-}
-
-.external-links {
-	color: #5996DB;
-}
+  }
 
 /* ==============================================
    9. Media Queries
