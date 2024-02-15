@@ -101,15 +101,15 @@ if (box1.checked == true){
 
 if (box2.checked == true){
     doc.rect(123, 41.3, 2.7, 2.7, 'F'),
-    doc.text(128, 44, 'Random assignment')}
+    doc.text(128, 44, 'Non-random assignment')}
     else {doc.rect(123, 41.3, 2.7, 2.7, 'S'),
-    doc.text(128, 44, 'Random assignment')}
+    doc.text(128, 44, 'Non-random assignment')}
 
 if (box3.checked == true){
     doc.rect(18, 45.3, 2.7, 2.7, 'F'),
-    doc.text(23, 48, 'Development of instruments')}
+    doc.text(23, 48, 'Development of measures')}
     else {doc.rect(18, 45.3, 2.7, 2.7, 'S'),
-    doc.text(23, 48, 'Development of instruments')}
+    doc.text(23, 48, 'Development of measures')}
 
 if (box11.checked == true){
     doc.rect(72, 45.3, 2.7, 2.7, 'F'),
